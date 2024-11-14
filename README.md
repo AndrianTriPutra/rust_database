@@ -21,4 +21,4 @@
 
 
 ## documentation
-> - [medium]()
+> - [medium](https://andriantriputra.medium.com/be-rust-example-implement-database-at-rust-2ad3c03172f2)
