@@ -1,0 +1,8 @@
+general:
+  tz       : true
+  log      : trace
+
+database:
+  host     : postgres://user:pass@localhost:5432/library?sslmode=disable
+
+
