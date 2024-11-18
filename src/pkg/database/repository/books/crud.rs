@@ -44,7 +44,7 @@ pub async fn update(
         .filter(book::Column::Uuid.eq(uuid))
         .one(db)
         .await?
-        .ok_or(DbErr::RecordNotFound("Book not found".to_string()))?; // Mengambil Model, dan error jika tidak ditemukan
+        .ok_or(DbErr::RecordNotFound("Book not found".to_string()))?; // catch Model, and error if not found
 
     // convert Model to ActiveModel
     let mut active_model = model.into_active_model();
